@@ -528,6 +528,9 @@ p.lead {
     .welcome-cols div {
         padding: 0 20px;
     }
+    p.lead {
+        font-size: 20px;
+    }
     .image-gallery {
         width: 90%;
         margin: auto;
@@ -585,6 +588,9 @@ p.lead {
     .carousel-caption .btn {
         padding: 7px 15px !important;
     }
+    p.lead {
+        font-size: 1rem;
+    }
     .video-projects {
         padding-top: 50px;
     }
@@ -632,8 +638,8 @@ p.lead {
     .life h1,
     .newsletter h1,
     .blog h1 {
-        font-size: 50px;
-        margin-bottom: 50px;
+        font-size: 40px;
+        margin-bottom: 40px;
     }
     .mySlides img {
         height: 250px;
