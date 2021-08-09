@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and Menu icon -->
+
+    <title>Zippy Website</title>
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+
+    <!-- Stylesheets -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- Bootstrap scripts -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Fontawesome icons -->
+
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-expand-md  navbar-dark">
+
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">ZIPPY</a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- carousel -->
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators d-flex justify-content-start">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/carousel/back1.jpg" alt="Back-cover">
+                    <div class="carousel-caption">
+                        <h1>One page promising to fill all your need!</h1>
+                        <p>This is Photoshop's version of Lorem ipsum dolor sit amet dolore magna aliqua.</p>
+
+                        <div class="d-flex">
+                            <button class="btn m-2 py-3 px-4">Learn More</button>
+                            <button class="btn m-2 py-3 px-4">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel/back2.jpg" alt="Back-cover">
+                    <div class="carousel-caption">
+                        <h1>One page promising to fill all your need!</h1>
+                        <p>This is Photoshop's version of Lorem ipsum dolor sit amet dolore magna aliqua.</p>
+
+                        <div class="d-flex">
+                            <button class="btn m-2 py-3 px-4">Learn More</button>
+                            <button class="btn m-2 py-3 px-4">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel/back3.jpg" alt="Back-cover">
+                    <div class="carousel-caption">
+                        <h1>One page promising to fill all your need!</h1>
+                        <p>This is Photoshop's version of Lorem ipsum dolor sit amet dolore magna aliqua.</p>
+
+                        <div class="d-flex">
+                            <button class="btn m-2 py-3 px-4">Learn More</button>
+                            <button class="btn m-2 py-3 px-4">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel/back4.png" alt="Back-cover">
+                    <div class="carousel-caption">
+                        <h1>One page promising to fill all your need!</h1>
+                        <p>This is Photoshop's version of Lorem ipsum dolor sit amet dolore magna aliqua.</p>
+
+                        <div class="d-flex">
+                            <button class="btn m-2 py-3 px-4">Learn More</button>
+                            <button class="btn m-2 py-3 px-4">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Welcome -->
+
+    <div class="welcome container">
+
+        <h1 class="text-center">Welcome to Zippy</h1>
+
+        <div class="row">
+            <div class="col-md-8 my-auto">
+                <p class="lead px-5">This is Photoshop's version of Lorem ipsum dolor sit amet dolore magna aliqua amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <img src="./assets/images/welcome/photographer.jpg" alt="umbrella" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row text-center welcome-cols">
+            <div class="col-md-4">
+                <img src="./assets/images/welcome/bell.png" alt="" class="">
+                <h4>LOREM IPSUM</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="btn py-3 px-4">Learn More</button>
+            </div>
+
+            <div class="col-md-4">
+                <img src="./assets/images/welcome/camera.png" alt="" class="">
+                <h4>LOREM IPSUM</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="btn py-3 px-4">Learn More</button>
+            </div>
+
+            <div class="col-md-4">
+                <img src="./assets/images/welcome/letter.png" alt="" class="">
+                <h4>LOREM IPSUM</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="btn py-3 px-4">Learn More</button>
+            </div>
+        </div>
+
+        <hr>
+    </div>
+
+    <!-- Projects -->
+
+    <div class="projects">
+
+        <h1 class="text-center">Projects</h1>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 projects-cards">
+                <img src="./assets/images/projects/project1.jpg" alt="">
+                <div>
+                    <h6>PROJECT NAME</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="btn py-3 px-4">Launch case study</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 projects-cards">
+                <img src="./assets/images/projects/project2.jpg" alt="">
+                <div>
+                    <h6>PROJECT NAME</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="btn py-3 px-4">Launch case study</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 projects-cards">
+                <img src="./assets/images/projects/project3.jfif" alt="">
+                <div>
+                    <h6>PROJECT NAME</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="btn py-3 px-4">Launch case study</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 projects-cards">
+                <img src="./assets/images/projects/project4.jfif" alt="">
+                <div>
+                    <h6>PROJECT NAME</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <button class="btn py-3 px-4">Launch case study</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Table -->
+
+    <div class="pricing container text-center">
+
+        <h1>Pricing Table</h1>
+
+        <div class="row">
+            <div class="col-md-4 pricing-cols">
+                <h6 class="col-head">STANDARD PLAN</h6>
+                <h6 class="col-sub-head">Free</h6>
+                <p>2 GB Available</p>
+                <p>15 max Contacts</p>
+                <p>30 Messages/month</p>
+                <p>Ongoing Ads</p>
+                <button class="btn py-2 px-5">Buy</button>
+            </div>
+
+            <div class="col-md-4 pricing-cols middle">
+                <h6 class="col-head">BUSINESS PLAN</h6>
+                <h6 class="col-sub-head">19$/MONTH</h6>
+                <p>10 GB Available</p>
+                <p>75 max Contacts</p>
+                <p>120 Messages/month</p>
+                <p>Ads Free</p>
+                <button class="btn py-2 px-5">Buy</button>
+            </div>
+
+            <div class="col-md-4 pricing-cols">
+                <h6 class="col-head">PREMIUM PLAN</h6>
+                <h6 class="col-sub-head">14$/MONTH</h6>
+                <p>100 GB Available</p>
+                <p>Unlimited Contacts</p>
+                <p>Unlimited Messages/month</p>
+                <p>Ads Free</p>
+                <button class="btn py-2 px-5">Buy</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Projects -->
+
+    <div class="video-projects">
+
+        <h1 class="text-center">Video Projects</h1>
+
+        <div class="row project-row">
+
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/dgKSqz3it50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe class="video">
+
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/qUlk8q-lvgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe class="video">
+
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/1wfeqDyMUx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe class="video">
+
+        </div>
+
+    </div>
+
+    <!-- Team -->
+
+    <div class="team container text-center">
+
+        <h1>Zippy Team</h1>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 team-card">
+                <div class="overlay-div">
+                    <img src="./assets/images/team/team1.jfif" alt="" class="rounded-circle">
+                    <div class="overlay d-flex flex-row justify-content-center align-items-center">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+
+                <h6 class="col-head">SARA JOHNSON</h6>
+                <h6 class="col-sub-head">Creative Head</h6>
+            </div>
+
+            <div class="col-md-4 col-sm-6 team-card">
+                <div class="overlay-div">
+                    <img src="./assets/images/team/team2.jfif" alt="" class="rounded-circle">
+                    <div class="overlay d-flex flex-row justify-content-center align-items-center">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+
+                <h6 class="col-head">MATT ALEX</h6>
+                <h6 class="col-sub-head">Art Director</h6>
+            </div>
+
+            <div class="col-md-4 col-sm-6 team-card">
+                <div class="overlay-div">
+                    <img src="./assets/images/team/team3.jfif" alt="" class="rounded-circle">
+                    <div class="overlay d-flex flex-row justify-content-center align-items-center">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+
+                <h6 class="col-head">ALIZA</h6>
+                <h6 class="col-sub-head">Seo Monstor</h6>
+            </div>
+
+            <div class="col-md-4 col-sm-6 team-card">
+                <div class="overlay-div">
+                    <img src="./assets/images/team/team4.jfif" alt="" class="rounded-circle">
+                    <div class="overlay d-flex flex-row justify-content-center align-items-center">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+
+                <h6 class="col-head">CHRIS PHELIPS</h6>
+                <h6 class="col-sub-head">Senior Designer</h6>
+            </div>
+
+            <div class="col-md-4 col-sm-6 team-card">
+                <div class="overlay-div">
+                    <img src="./assets/images/team/team5.jfif" alt="" class="rounded-circle">
+                    <div class="overlay d-flex flex-row justify-content-center align-items-center">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+
+                <h6 class="col-head">JIMMY SMITH</h6>
+                <h6 class="col-sub-head">Marketing Manager</h6>
+            </div>
+
+            <div class="col-md-4 col-sm-6 team-card">
+                <div class="overlay-div">
+                    <img src="./assets/images/team/team6.png" alt="" class="rounded-circle">
+                    <div class="overlay d-flex flex-row justify-content-center align-items-center">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+
+                <h6 class="col-head">CELIEN JOHN</h6>
+                <h6 class="col-sub-head">Senior Designer</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- Life in Zippy -->
+
+    <div class="life text-center">
+
+        <h1>Life in Zippy</h1>
+
+        <div class="image-gallery">
+
+            <div class="mySlides">
+                <img src="./assets/images/life/life1.jfif" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="./assets/images/life/life2.jfif" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="./assets/images/life/life3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="./assets/images/life/life4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="./assets/images/life/life5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="./assets/images/life/life6.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="./assets/images/life/life7.jpg" style="width:100%">
+            </div>
+        
+
+        
+            <div class="gallery-row">
+                <div class="column" style="margin-left: 0;">
+                    <img class="demo cursor" src="./assets/images/life/life1.jfif" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="./assets/images/life/life2.jfif" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="./assets/images/life/life3.jpg" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="./assets/images/life/life4.jpg" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="./assets/images/life/life5.jpg" onclick="currentSlide(5)" alt="Nature and sunrise">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="./assets/images/life/life6.jpg" onclick="currentSlide(6)" alt="Snowy Mountains">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" src="./assets/images/life/life7.jpg" onclick="currentSlide(7)" alt="Snowy Mountains">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- NewsLetter -->
+
+    <div class="newsletter">
+        
+        <h1 class="text-center">Newsletter Signup</h1>
+
+        <div class="container">
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="abcd@example.com">
+                <div class="input-group-append">
+                    <button class="btn" type="submit">Sign Up</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Blog -->
+
+    <div class="blog container text-center">
+
+        <h1>Blog</h1>
+
+        <div class="row">
+            <div class="col-md-4 blog-cols">
+                <img src="./assets/images/blogs/blog1.jfif" alt="">
+                <h6 class="col-head">LOREM IPSUM DOLOR SIT AMET</h6>
+                <h6 class="col-sub-head">4 Aug, 2021</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <button class="btn py-2 px-5">Read More</button>
+            </div>
+
+            <div class="col-md-4 blog-cols">
+                <img src="./assets/images/blogs/blog2.jfif" alt="">
+                <h6 class="col-head">LOREM IPSUM DOLOR SIT AMET</h6>
+                <h6 class="col-sub-head">4 Aug, 2021</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <button class="btn py-2 px-5">Read More</button>
+            </div>
+
+            <div class="col-md-4 blog-cols">
+                <img src="./assets/images/blogs/blog3.jfif" alt="">
+                <h6 class="col-head">LOREM IPSUM DOLOR SIT AMET</h6>
+                <h6 class="col-sub-head">4 Aug, 2021</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <button class="btn py-2 px-5">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div class="contact">
+
+        <div class="row">
+            <div class="col-md-7">
+                <img src="./assets/images/map.png" alt="">
+            </div>
+
+            <div class="col-md-5 form">
+                <h1>Contact</h1>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" placeholder="" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" placeholder="" id="subject">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" rows="5" id="message"></textarea>
+                </div>
+
+                <button class="btn py-2 px-5">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer container text-center">
+
+        <div class="row">
+            <div class="col-md-4">
+                <h6 class="col-head">ADDRESS</h6>
+                <h6 class="col-sub-head">Lorem ipsum dolor, 234</h6>
+                <h6 class="col-sub-head">1200 Consecutive</h6>
+                <h6 class="col-sub-head">Adipiscing</h6>
+            </div>
+
+            <div class="col-md-4">
+                <h6 class="col-head">FOLLOW US</h6>
+                <div class="icons d-flex flex-wrap justify-content-center">
+                    <i class="fab fa-behance"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-tumblr"></i>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h6 class="col-head">CONTACT US</h6>
+                <h6 class="col-sub-head">+123 456 789</h6>
+                <h6 class="col-sub-head">zippy@skype</h6>
+                <h6 class="col-sub-head">enquiry@zippy.com</h6>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./assets/script.js"></script>
+
+</html>
